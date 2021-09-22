@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+}
+
+.menu a{
+    background-color: #04AA6D;
+    color: black;
+    padding: 8px;
+    margin-top: 7px;
+    display: flex;
+    width: 100%;
+}
+
+.menu a:hover {
+    background-color:rgb(196, 0, 0);
+}
+
+.main {
+    float: left;
+    width: 60%;
+    display: grid;
+    padding: 0 20px;
+}
+
+.main iframe, video{
+    float: left;
+    width: 90%;
+    height:fit-content;
+    padding: 0 20px;
+}
+
+.aside {
+    display: grid;
+    background-color: #04AA6D;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+.header{
+    background-color:#00e28f;
+    padding:15px;
+    text-align:center;
+}
+
+.section {
+    overflow: auto;
+}
